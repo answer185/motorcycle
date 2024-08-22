@@ -11,7 +11,7 @@
 - [Volt](https://github.com/livewire/volt)
 
 ## 初始化laravel
-```
+```shell
 composer create-project laravel/laravel dc-motorcycle
 ```
 
@@ -23,12 +23,11 @@ composer create-project laravel/laravel dc-motorcycle
 - [livewire/volt](https://github.com/livewire/volt): [文档](https://livewire.laravel.com/docs/volt) 
 
 ### 安装codeat3/blade-phosphor-icons
-```
-codeat3/blade-phosphor-icons
+```shell
+composer require codeat3/blade-phosphor-icons
 ```
 
 ### Tailwind安装
-
 ```shell
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
